@@ -30,7 +30,7 @@ export const SingleAd = (props: Props) => {
                 <p>{ad.description}</p>
                 {!!ad.price && <p>£{ad.price}</p>}
                 <hr/>
-                <h4><a href={ad.url} target="_blank">{ad.url}</a></h4>
+                <h4><a href={ad.url} target="_blank" rel="noreferrer">{ad.url}</a></h4>
             </>
         )
 }
