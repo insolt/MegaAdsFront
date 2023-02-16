@@ -15,7 +15,7 @@ export const Header = () => {
     return(
         <header>
             <p><strong>Mega</strong> Ogloszenia</p>
-            <Btn text='Dodaj ogloszenie' />
+            <Btn text='Dodaj ogloszenie' to="/add"/>
             <form className="search" onSubmit={setSearchFromLocalState}>
                 <input type="text" value={inputValue} onChange={e => setInputValue(e.target.value)}/> <Btn text='Szukaj'/>
             </form>
