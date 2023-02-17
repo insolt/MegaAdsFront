@@ -1,0 +1,29 @@
+.add-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 2px darkgrey;
+}
+
+.add-form h1 {
+    padding-bottom: 15px;
+}
+
+.add-form label {
+    font-weight: bold;
+}
+
+.add-form input, .add-form textarea {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.add-form button {
+    width: 100%;
+    padding: 13px;
+}
